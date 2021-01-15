@@ -9,4 +9,9 @@ public class SecondController {
     public String saySecond() {
         return  "Hello from second controller! Waiting for the first one";
     }
+
+    @GetMapping("/received")
+    public String received() {
+        return "received changes from task-1 branch";
+    }
 }

@@ -9,4 +9,9 @@ public class FirstController {
     public String sayFirst() {
         return "Hello from first controller";
     }
+
+    @GetMapping("/first-wait-third")
+    public String waitThird() {
+        return "Waiting for the third controller";
+    }
 }

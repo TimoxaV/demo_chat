@@ -14,4 +14,9 @@ public class FirstController {
     public String waitThird() {
         return "Waiting for the third controller";
     }
+
+    @GetMapping("/first-wait-second-method")
+    public String waitFirstForSecondWait() {
+        return "Waiting for the waitSecond Controller";
+    }
 }

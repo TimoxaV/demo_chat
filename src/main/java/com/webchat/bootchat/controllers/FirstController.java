@@ -24,4 +24,9 @@ public class FirstController {
     public String waitFirstForSecondWait() {
         return "Waiting for the waitSecond Controller";
     }
+
+    @GetMapping("/finish")
+    public String finish() {
+        return "Everything is here";
+    }
 }
